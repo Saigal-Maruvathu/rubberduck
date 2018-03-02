@@ -1,14 +1,23 @@
-.body {
-  
+.body-background {
+  background-color: lightgrey;
+}
+
+.container-style {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .container1 {
-
+  float: left;
 }
 
 .container2 {
 
 }
-.image {
-
+.roundedimage {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  box-shadow: 5px 10px;
+  margin: 10px 20px 10px 10px;
 }
