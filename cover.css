@@ -1,4 +1,35 @@
 
+
+.header{
+    display: block;
+    background-color: burlywood;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px;
+}
+
+.foundationName {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.navbar {
+    text-align: center;
+}
+
+.homeLink {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.donationLink {
+    display: inline-block;
+    margin-left: 30px;
+}
+
 /* Setting background color of body */
 .body-background {
   /* background-color: #F8900D; */
