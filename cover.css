@@ -1,34 +1,67 @@
+.navigation{
+    
+    float: left;
+    
+}
+
+li{
+    
+    list-style-type: none;
+    font-size: 20px;
+    font-family: arial-black;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:link {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.link{
+    
+    width: 50%;
+    
+}
+
 
 
 .header{
-    display: block;
-    background-color: burlywood;
+    
 }
 
 .logo {
     display: inline-block;
     margin: 5px;
+    width: 100%;
+    height: 125px;
+    background: black;
+}
+
+.ducklogo{
+    
+    height: 50%;
+    float: left;
+    display: inline-block;
+    margin: 30px
+    
 }
 
 .foundationName {
-    display: inline-block;
-    margin-left: 50px;
+    display: block;
+    font-size: 40px
 }
 
 
-.navbar {
-    text-align: center;
+ul {
+    width: 100%;
+    display: inline-bloc
 }
 
-.homeLink {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.donationLink {
-    display: inline-block;
-    margin-left: 30px;
-}
 
 /* Setting background color of body */
 .body-background {
@@ -87,7 +120,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-variant: small-caps;
   color: #FFEC18;
-  /* background-color: #554433; */
+  background-color: black;
   padding: 10px;
   text-align: center;
 }
@@ -118,7 +151,7 @@ p {
 }
 
   .button {
-    background-color: #F7830A;
+    background-color: forestgreen;
     border: outset;
     color: white;
     padding: 15px 32px;
@@ -134,7 +167,7 @@ p {
 
 a.center {
   display: block;
-  width: 144px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
