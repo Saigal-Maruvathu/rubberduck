@@ -1,0 +1,124 @@
+
+/* Setting background color of body */
+.body-background {
+  /* background-color: #F8900D; */
+}
+
+/* setting width and margin of body */
+.container-style {
+  /* width: 80%; */
+  /* margin: 0 auto; */
+}
+/* floating duck photo left */
+.container1 {
+  /* margin: 0 auto; */
+  /* float: left; */
+  /* display: inline-block; */
+}
+
+/* for the text */
+.container2 {
+  /* float: clear; */
+  width: 80%;
+  margin: 0 auto;
+}
+/* styling the image */
+.roundedimage {
+  /* border-radius: 50%; */
+  /* width: 350px; */
+  /* height: 350px; */
+  /* box-shadow: 5px 10px #543; */
+  /* margin: 0 auto; */
+}
+/* to center rubber duck image */
+.centerimage1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+    border-radius: 50%;
+    /* box-shadow: 5px 10px #543; */
+}
+/* to center boy image */
+.centerimage2 {
+    display: block;
+    margin-top:
+    margin-left: auto;
+    margin-right: auto;
+    width: 335px;
+    height: 341px;
+    border-radius: 50%;
+    /* box-shadow: 5px 10px #543; */
+}
+
+/* header font in body */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+  color: #FFEC18;
+  /* background-color: #554433; */
+  padding: 10px;
+  text-align: center;
+}
+
+/* paragraph font in body */
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+  .button {
+    background-color: #F7830A;
+    border: outset;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a.center {
+  display: block;
+  width: 144px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-variant: small-caps;
+}
+
+.gameover {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+}
+
+.iframe {
+text-align: center;
+}
