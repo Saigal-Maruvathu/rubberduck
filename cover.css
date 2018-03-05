@@ -55,7 +55,6 @@ footer {
     background-color: black;
     padding: 10px;
     text-align: center;
-    width: 1000px;
 }
 
 div.column {
@@ -137,7 +136,7 @@ body{
 
 .container2 {
     /* float: clear; */
-    width: 1300px;
+    width: 90%;
     margin: auto;
     text-align: center
 }
