@@ -1,38 +1,97 @@
-.navigation{
-    
-    float: left;
-    
+ul {
+    width: 100%;
+    display: inline-block;
 }
 
-li{
-    
+li {
+
     list-style-type: none;
     font-size: 20px;
     font-family: arial-black;
     text-decoration: none;
     color: black;
-    
+
 }
 
 a:link {
-    
+
     text-decoration: none;
     color: black;
-    
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    color: #FFEC18;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 85%;
+}
+
+/* paragraph font in body */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
 }
 
 
-.link{
+form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    color: black;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+}
+
+div.column {
+
+    margin: 0 auto;
+
+}
+
+header {
+
+    display: block;
+
+}
+
+body{
     
+    background-attachment: fixed;
+    
+}
+
+.navigation {
+
+    float: left;
+
+}
+
+.link {
+
     width: 50%;
-    
+
 }
 
 
 
-.header{
-    
-}
+.header {}
 
 .logo {
     display: inline-block;
@@ -42,73 +101,71 @@ a:link {
     background: black;
 }
 
-.ducklogo{
-    
+.ducklogo {
+
     height: 50%;
     float: left;
     display: inline-block;
     margin: 30px
-    
 }
 
 .foundationName {
-    display: block;
+    display: inline-block;
     font-size: 40px
 }
 
 
-ul {
-    width: 100%;
-    display: inline-bloc
-}
-
-
 /* Setting background color of body */
+
 .body-background {
-  /* background-color: #F8900D; */
+    /* background-color: #F8900D; */
 }
 
 /* setting width and margin of body */
+
 .container-style {
-  /* width: 80%; */
-  /* margin: 0 auto; */
+    /* width: 80%; */
+    /* margin: 0 auto; */
 }
+
 /* floating duck photo left */
-.container1 {
-  /* margin: 0 auto; */
-  /* float: left; */
-  /* display: inline-block; */
+
+.formcontainer {
+    margin: 0px 50px;
 }
 
 /* for the text */
+
 .container2 {
-  /* float: clear; */
-  width: 80%;
-  margin: 0 auto;
+    /* float: clear; */
+    width: 1200px;
+    margin: auto;
+    text-align: center
 }
+
 /* styling the image */
+
 .roundedimage {
-  /* border-radius: 50%; */
-  /* width: 350px; */
-  /* height: 350px; */
-  /* box-shadow: 5px 10px #543; */
-  /* margin: 0 auto; */
+    /* border-radius: 50%; */
+    /* width: 350px; */
+    /* height: 350px; */
+    /* box-shadow: 5px 10px #543; */
+    /* margin: 0 auto; */
 }
+
 /* to center rubber duck image */
+
 .centerimage1 {
+
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 34%;
-    border-radius: 50%;
+    width: 25%;
     /* box-shadow: 5px 10px #543; */
 }
+
 /* to center boy image */
+
 .centerimage2 {
     display: block;
-    margin-top:
-    margin-left: auto;
-    margin-right: auto;
     width: 335px;
     height: 341px;
     border-radius: 50%;
@@ -116,41 +173,27 @@ ul {
 }
 
 /* header font in body */
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-variant: small-caps;
-  color: #FFEC18;
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-}
-
-/* paragraph font in body */
-p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
-}
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .column {
-  flex: 50%;
-  padding: 0 4px;
-  width: 650px;
-  margin: 0 auto;
-  text-align: center;
+    flex: 50%;
+    padding: 0 4px;
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
-  .button {
+.button {
     background-color: forestgreen;
     border: outset;
     color: white;
@@ -166,23 +209,51 @@ p {
 }
 
 a.center {
-  display: block;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-form {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-variant: small-caps;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gameover {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 80px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80px;
 }
 
 .iframe {
-text-align: center;
+    text-align: center;
+}
+
+.fblogo {
+
+    display: inline-block;
+    max-width: 30px;
+    min-width: 25px;
+    margin: 1%;
+
+}
+
+.twlogo {
+
+    display: inline-block;
+    max-width: 30px;
+    min-width: 25px;
+    margin: 1%;
+
+}
+
+.footer {
+
+
+    padding: .5% 1%;
+    background: lightgrey;
+    width: 100%;
+    margin: 50px 0px 0px;
+}
+
+.form {
+
+    display: inline-block;
+    text-align: center;
+
 }
