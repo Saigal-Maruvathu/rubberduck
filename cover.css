@@ -27,7 +27,6 @@ h1 {
     background-color: black;
     padding: 10px;
     text-align: center;
-    width: 85%;
 }
 
 /* paragraph font in body */
@@ -138,7 +137,7 @@ body{
 
 .container2 {
     /* float: clear; */
-    width: 1200px;
+    width: 1300px;
     margin: auto;
     text-align: center
 }
@@ -210,7 +209,7 @@ body{
 
 a.center {
     display: block;
-    width: 75%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
